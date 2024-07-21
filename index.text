@@ -1,0 +1,28 @@
+
+//object start here
+
+//let name = 'mosh';
+//let age = 30; 
+
+
+let person = {
+    name: 'mosh',
+    age: 30
+};
+// Dot Notation
+let selection = 'name';
+person[selection] = 'marry';
+//bracket Notation
+
+person['name'] = 'mary';
+console.log(person.name);
+//console.log(person);
+
+
+//object end here 
+
+//let name = "joash";//string Literal
+//let age = 30;//Number Literal
+//let isApproved = false; //boolean Literal can be true or flase
+//let firstName = undefined;
+//let LastName = null;
